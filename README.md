@@ -2,23 +2,23 @@
 POC for WebdriverIO for Calendly browser automation
 
 
-WebdriverIO setup guide
+# WebdriverIO setup guide
 
-Setup project
+**Setup project**
 mkdir webdriverio-test && cd webdriverio-test
 npm init -y
 
-Install CLI
+**Install CLI**
 npm i --save-dev @wdio/cli
 
-Generate config file
+**Generate config file**
 ./node_modules/.bin/wdio config -y
 
-Create Spec Files
+**Create Spec Files**
 mkdir -p ./test/specs
 
-Enable sync mode
+**Enable sync mode**
 npm install —save-dev @wdio/sync
 
-Run Suite
+**Run Suite**
 ./node_modules/.bin/wdio wdio.conf.js
